@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\bin\Debug\net6.0\DapperCRUD.Domain.deps.json
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\bin\Debug\net6.0\DapperCRUD.Domain.dll
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\bin\Debug\net6.0\DapperCRUD.Domain.pdb
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.AssemblyInfo.cs
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.dll
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\refint\DapperCRUD.Domain.dll
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\DapperCRUD.Domain.pdb
+C:\Users\User\source\repos\DapperCRUD\DapperCRUD.Domain\obj\Debug\net6.0\ref\DapperCRUD.Domain.dll
