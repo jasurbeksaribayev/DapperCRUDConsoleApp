@@ -1,5 +1,6 @@
 ﻿using DapperCRUD.Data.IRepositories;
 using DapperCRUD.Domain.Constatnts;
+using DapperCRUD.Domain.Entities;
 using Npgsql;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,7 @@ namespace DapperCRUD.Data.Repositories
             Users = new UserRepository();
             Courses = new CourseRepository();
             Mentors = new MentorRepository();
+            UserCourses = new UserCourseRepository();
             connection = new NpgsqlConnection(ConnectionString.conStrDapperApp);
         }
     

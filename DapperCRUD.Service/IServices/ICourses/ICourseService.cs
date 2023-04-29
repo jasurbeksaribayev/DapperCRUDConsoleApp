@@ -12,7 +12,7 @@ namespace DapperCRUD.Service.IServices.ICourses
 {
     public interface ICourseService
     {
-        ValueTask<IEnumerable<CourseForViewDTO>> GetAllAsync(Expression<Func<Course, bool>> expression = null);
+        IEnumerable<CourseForViewDTO> GetAllAsync(Func<Course, bool> expression = null);
         ValueTask<CourseForViewDTO> GetAsync(int id);
         ValueTask<CourseForViewDTO> UpdateAsync(int id, CourseForUpdateDTO courseForUpdateDTO);
         ValueTask<CourseForViewDTO> CreateAsync(CourseForCreationDTO courseForCreationDTO);

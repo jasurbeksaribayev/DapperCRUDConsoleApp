@@ -30,7 +30,12 @@ namespace DapperCRUD.Data.Repositories
 
         public async ValueTask<bool> DeleteUserFromCourseAsync(int userId, int courseId)
         {
-            var query = $"DELETE FROM usercourse WHERE userid = {userId} AND courseid = {courseId}";
+            var exist = (await GetAllAsync()).FirstOrDefault(u => u.UserId == userId && u.CourseId == courseId);
+            
+            var query = $"DELETE FROM usercourse WHERE userid = {userId} AND courseid = {courseId};";
+
+            if (exist == null)
+                return false;
 
             await connection.ExecuteAsync(query);
 
@@ -54,5 +59,15 @@ namespace DapperCRUD.Data.Repositories
 
             return await connection.QueryAsync<User>(query);
       }
+
+
+
+        public async ValueTask<IEnumerable<UserCourse>> GetAllAsync()
+        {
+            var query = $"SELECT * FROM usercourse;";
+
+            return await connection.QueryAsync<UserCourse>(query);
+        }
+
     }
 }

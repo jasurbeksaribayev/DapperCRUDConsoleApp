@@ -11,6 +11,7 @@ namespace DapperCRUD.Data.IRepositories
     public interface IUserCourseRepository
     {
         ValueTask<IEnumerable<User>> GetUsersForCourseAsync(int courseId);
+        ValueTask<IEnumerable<UserCourse>> GetAllAsync();
         ValueTask<IEnumerable<Course>> GetCourseForUserAsync(int userId);
         ValueTask<bool> CreateUserToCourseAsync(int userId , int courseId);
         ValueTask<bool> DeleteUserFromCourseAsync(int userId , int courseId); 
